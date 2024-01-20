@@ -7,7 +7,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-####################################################
+# Project Objective and Set Up
 The project is for Josh's learning. We got to this point by running
 
 <npm create vite@latest>
@@ -18,6 +18,8 @@ and Typescript. In this case, I chose Javascript for simplicity.
 Then, once in the right directory, we simply run <npm install> every
 once in a while to get everything installed. To actually run the
 server, we do <npm run dev> to locally host it in our browser.
+
+# File Structure
 
 Now to familiarize ourselves with the file structure of a react applciation,
 which is created for us like this by default. 
@@ -37,4 +39,10 @@ like the public folder, but bundled. Thus, we should put all of the
 relevant images, videos, audios, etc. in this folder so that it can run
 anywhere when we host the application locally. 
 
+Outside of all the folders in the root directory, there is the index.html
+file, which is the entry point into the project. 
+
+The package.json file just contains a bunch of meta data about our project.
+It stores it in key value pairs, like name, version number, react version,
+etc. 
 
