@@ -1,12 +1,13 @@
 
 function Food(){
-    const food1 = "Classic American"
-    const food2 = "Rou Jia Mo"
+    const food0 = "Fried Chicken Sandwich"
+    const food1 = "Ol' Fashion Cheeseburger"
+    const food2 = "Delux Spicy Chicken Sandwich"
 
     return(
         <>
             <ul>
-                <li>Grilled Chicken Sandwich</li>
+                <li>{food0}</li>
                 <li>{food1}</li>
                 <li>{food2.toUpperCase()}</li>
             </ul>

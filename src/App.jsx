@@ -1,6 +1,7 @@
-import Header from "./Header.jsx"
-import Footer from "./Footer.jsx"
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
 import Food from "./Food.jsx";
+import Dcs from "./Dcs.jsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Food />
+      <Dcs />
       <Footer />
     </>
   );
